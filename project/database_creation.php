@@ -287,25 +287,14 @@ $myconn->query($mysql);//sale 0106 - Ryan
 
 
 
+/************************************
+*                                   *
+*       DONE SETTING UP BACKEND     *
+*                                   *
+************************************/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//close db connection
 $myconn->close();
 
 ?>
