@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database_name = "firstdb";
+$database_name = "DunderMdb";
 
 
 //create connection with the database
