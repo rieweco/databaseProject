@@ -1,6 +1,6 @@
 <?php
 $connect = mysqli_connect("localhost", "root", "", "DunderMdb");
-$query ="SELECT * FROM Employee ORDER BY employee_id DESC";
+$query ="SELECT * FROM Sku ORDER BY sku_id DESC";
 $result = mysqli_query($connect, $query);
 ?>
 <!DOCTYPE html>
@@ -16,19 +16,15 @@ $result = mysqli_query($connect, $query);
      <body>
           <br /><br />
           <div class="container">
-               <h3 align="right"><button><a href="./checkInventory.php">Check Inventory</a></button></h3>
-               <h3 align="right"><button><a href="./add_sales_row.php">Create Sale</a></button></h3>
-
-               <h3 align="center">Employee</h3>
+               <h3 align="center">Check Inventory</h3>
                <br />
                <div class="table-responsive">
                     <table id="employee_data" class="table table-striped table-bordered">
                          <thead>
                               <tr>
-                                   <td>employee_id</td>
-                                   <td>Name</td>
-                                   <td>commission</td>
-                                   <td>hire_date</td>
+                                   <td>SKU ID</td>
+                                   <td>Quantity</td>
+                                   <td>Cost Per Unit</td>
                               </tr>
                          </thead>
                          <?php
@@ -36,10 +32,9 @@ $result = mysqli_query($connect, $query);
                          {
                               echo '
                               <tr>
-                                   <td>'.$row["employee_id"].'</td>
-                                   <td>'.$row["name"].'</td>
-                                   <td>'.$row["commission"].'</td>
-                                   <td>'.$row["hire_date"].'</td>
+                                   <td>'.$row["sku_id"].'</td>
+                                   <td>'.$row["quantity"].'</td>
+                                   <td>'.$row["cost_per_unit"].'</td>
                               </tr>
                               ';
                          }
