@@ -4,6 +4,7 @@
 
 <form action="orders_info.php" method="post">
 Order ID <input type="text" name="id"><br />
+SKU ID <input type="text" name="sku_id"><br />
 Vendor Name <input type="text" name="pname"><br />
 Order Date <input type="text" name="order_date"><br />
 Arrival Date <input type="text" name="arrival_date"><br />
