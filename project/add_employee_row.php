@@ -10,7 +10,6 @@
 <form action="employee_info.php" method="post">
 
 <div class = "commission"> 
-  
 	<div class ="nested">
 		ID: <input type="text" name="id"><br />
 		<br />
