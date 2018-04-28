@@ -48,26 +48,136 @@ img
 	left: 15%;
 }
 
-/* css for add_orders_row*/
+/* CSS for text boxes on add_employee_row.php */
 input[name="comm"] 
 { 
 	position: absolute; 
-	left: 95px;
+	left: 115px;
 }
 input[name="id"] 
 { 
 	position: absolute; 
-	left: 95px;
+	left: 115px;
 }
 input[name="pname"] 
 { 
 	position: absolute; 
-	left: 95px; 
+	left: 115px; 
 }
 input[name="hire"] 
 { 
 	position: absolute; 
-	left: 95px; 
+	left: 115px; 
+}
+
+/* css for add_orders_row.php*/
+.orders
+{
+	position: absolute; 
+	top: 25%;
+	left: 35%;
+}
+
+/* CSS for text boxes on add_orders_row.php */
+
+input[name="sku_id"] 
+{ 
+	position: absolute; 
+	left: 115px; 
+}
+
+input[name="order_date"] 
+{ 
+	position: absolute; 
+	left: 115px; 
+}
+input[name="arrival_date"] 
+{ 
+	position: absolute; 
+	left: 115px; 
+}
+input[name="amount"] 
+{ 
+	position: absolute; 
+	left: 115px; 
+}
+input[name="cost"] 
+{ 
+	position: absolute; 
+	left: 115px; 
+}
+
+/* css for add_sales_row.php*/
+.sales_info
+{
+	position: absolute; 
+	top: 25%;
+	left: 35%;
+}
+.top
+{
+		background-color: green; 
+		border: 3px solid black;
+		position: absolute; 
+		height: 10%; 
+		width: 99%; 
+		top: 0%; 
+}
+.bottom
+{
+		background-color: green; 
+		border: 3px solid black;
+		position: absolute; 
+		height: 10%; 
+		width: 99%; 
+		bottom: 0%; 
+}
+
+/* CSS for text boxes on add_sales_row.php */
+input[name="sale_id"] 
+{ 
+	position: absolute; 
+	left: 115px; 
+}
+input[name="emp_id"] 
+{ 
+	position: absolute; 
+	left: 115px; 
+}
+input[name="profit"] 
+{ 
+	position: absolute; 
+	left: 115px; 
+}
+input[name="sale_date"] 
+{ 
+	position: absolute; 
+	left: 115px; 
+}
+input[name="quantity"] 
+{ 
+	position: absolute; 
+	left: 115px; 
+}
+input[name="notes"] 
+{ 
+	position: absolute; 
+	height: 15%; 
+	left: 115px; 
+}
+
+/* css for add_sku_row.php */
+.equip_img
+{
+	width: 50%;
+	 float: right; 
+	 height: 97%;
+}
+
+	input[name="sku"] 
+{ 
+	position: absolute; 
+	left: 115px; 
 }
 
 input[type=submit]
