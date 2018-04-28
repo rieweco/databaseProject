@@ -2,13 +2,13 @@ body
 {
 	background-color: powderblue;
 }
+
+/* Project.html css */
 img 
 { 
 	height: 200px;
     width: 1350px; 
 }
-
-/* Project.html css */
 
 .Employee_Login
 {
@@ -21,6 +21,55 @@ img
 	background-color: white; 
 }
 
+/* css for add_employee_row */
+ .employ_img
+ {
+	 width: 50%;
+	 float: right; 
+	 height: 97%;
+ }
+
+.commission 
+{
+	float: left; 
+	margin: auto; 
+	background-color: grey; 
+	border: 3px solid black;
+	width: 49%;
+	height: 99%;
+}
+
+.nested
+{
+	position: absolute;  
+	height: 40%;
+	width: 25%; 
+	top: 25%;
+	left: 15%;
+}
+
+/* css for add_orders_row*/
+input[name="comm"] 
+{ 
+	position: absolute; 
+	left: 95px;
+}
+input[name="id"] 
+{ 
+	position: absolute; 
+	left: 95px;
+}
+input[name="pname"] 
+{ 
+	position: absolute; 
+	left: 95px; 
+}
+input[name="hire"] 
+{ 
+	position: absolute; 
+	left: 95px; 
+}
+
 input[type=submit]
 {
 	position: relative;
@@ -31,8 +80,4 @@ input[type=reset]
 	position: relative;
 	left: 100px;
 }
-
-/*Employee_page.php css */
-
-
 
