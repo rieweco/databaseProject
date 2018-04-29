@@ -180,6 +180,14 @@ input[name="notes"]
 	left: 115px; 
 }
 
+/* css for add_products_row.php */
+.add_products
+{
+	position: absolute; 
+	top: 25%;
+	left: 35%;
+}
+
 input[type=submit]
 {
 	position: relative;
@@ -191,3 +199,9 @@ input[type=reset]
 	left: 100px;
 }
 
+h1
+{
+	margin: auto; 
+	position: absolute; 
+	left: 40%; 
+}
