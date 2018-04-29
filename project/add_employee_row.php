@@ -18,10 +18,9 @@
 		Commission:<input type="text" name="comm"><br />
 		<br />
 		Hire Date:<input type="text" name="hire"><br />
+		<br />
+		<input type="submit">
 	</div
-
-<input type="submit">
-
 </div>
 
 </form>
