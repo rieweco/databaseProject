@@ -1,15 +1,17 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href= "../../styles/style.css">
+	<title>Add Sales</title>
+
 </head>
 
 <body>
 
-<div class = "top"> 
-</div> 
+<div class = "top">
+</div>
 
-<form action="sales_info.php" method="post">
+<form action="../info/sales_info.php" method="post">
 
 	<div class = "sales_info">
 		Sale ID: <input type="text" name="sale_id"><br />
@@ -31,8 +33,8 @@
 	</div>
 </form>
 
-<div class = "bottom"> 
-</div> 
+<div class = "bottom">
+</div>
 
 </body>
 

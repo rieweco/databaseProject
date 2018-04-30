@@ -1,15 +1,16 @@
 <html>
-  
+
 <head>
-	<link rel="stylesheet" href= "style.css">
+  <title>Add Employee</title>
+	<link rel="stylesheet" href= "../../styles/style.css">
 </head>
-  
+
 <body>
-<img class ="employ_img" src = "img2.jpg" alt="Building Background">
+<img class ="employ_img" src = "../../images/img2.jpg" alt="Building Background">
 
-<form action="employee_info.php" method="post">
+<form action="../info/employee_info.php" method="post">
 
-<div class = "commission"> 
+<div class = "commission">
 	<div class ="nested">
 		ID: <input type="text" name="id"><br />
 		<br />

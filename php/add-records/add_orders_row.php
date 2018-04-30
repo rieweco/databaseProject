@@ -1,12 +1,13 @@
 <html>
-  
+
  <head>
-	<link rel="stylesheet" href="style.css">
+   <title>Add Order</title>
+   <link rel="stylesheet" href= "../../styles/style.css">
 </head>
-  
+
 <body>
 
-<form action="orders_info.php" method="post">
+<form action="../info/orders_info.php" method="post">
 
 	<div class = "orders">
 		Order ID: <input type="text" name="id"><br />
@@ -24,7 +25,7 @@
 		Shipping Cost: <input type="text" name="cost"><br />
 		</br>
 		<input type="submit">
-	</div> 
+	</div>
 </form>
 </body>
 

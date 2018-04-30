@@ -1,14 +1,16 @@
 <html>
 
  <head>
-	<link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href= "../../styles/style.css">
+  <title>Add SKU</title>
+
 </head>
 
 <body>
 
-<img class ="equip_img" src = "img3.jpg" alt="merchandise">
+<img class ="equip_img" src = "../../images/img3.jpg" alt="merchandise">
 
-<form action="sku_info.php" method="post">
+<form action="../info/sku_info.php" method="post">
 
 	<div class ="sku_info">
 		<div class = nested>
