@@ -22,12 +22,14 @@ if (isset($_POST['uname']) and isset($_POST['pword'])) // Check if form posted u
     if($row == 1)
 	{
 
-		echo "Successful login.";
+		header('Location: allOptions.php');
+		exit();
+
 		// Print employee summary stuff here.
 
 
     }
-	else // If wrong username password redirect. 
+	else // If wrong username password redirect.
 	{
 	    ?>
 
