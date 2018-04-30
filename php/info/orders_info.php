@@ -18,7 +18,7 @@ $post_cost = $_POST['cost'];
 
 echo "$post_id";
 echo "<br />";
-echo "$post_sku_id"
+echo "$post_sku_id";
 echo "<br />"
 echo "$post_name";
 echo "<br />";
